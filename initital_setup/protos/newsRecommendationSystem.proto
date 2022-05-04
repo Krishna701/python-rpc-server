@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "news.hamropatro";
+option java_outer_classname = "NewsRecommendationSystem";
+option objc_class_prefix = "HLW";
+
+package news.hamropatro;
+
+service NRSService {
+  rpc send (NRSRequest) returns (NRSReply) {}
+}
+message NRSRequest {
+  string name = 1;
+  string address = 2;
+}
+message NRSReply {
+  string message = 1;
+  //string given_add = 2;
+}
