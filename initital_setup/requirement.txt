@@ -1,0 +1,9 @@
+grpcio
+grpcio-tools
+pandas
+numpy
+sklearn
+pyqt5:5.13
+pyqtwebengine:5.13
+pathlib
+ruamel-yaml

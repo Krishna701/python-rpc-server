@@ -11,10 +11,10 @@ service NRSService {
   rpc send (NRSRequest) returns (NRSReply) {}
 }
 message NRSRequest {
-  string name = 1;
-  string address = 2;
+  string title = 1;
+  string  category = 2;
 }
 message NRSReply {
-  string message = 1;
-  //string given_add = 2;
+  string title = 1;
+  string category = 2;
 }

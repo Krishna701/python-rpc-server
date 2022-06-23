@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1enewsRecommendationSystem.proto\x12\x0fnews.hamropatro\"+\n\nNRSRequest\x12\x0c\n\x04name\x18\x01 \x01(\t\x12\x0f\n\x07\x61\x64\x64ress\x18\x02 \x01(\t\"\x1b\n\x08NRSReply\x12\x0f\n\x07message\x18\x01 \x01(\t2N\n\nNRSService\x12@\n\x04send\x12\x1b.news.hamropatro.NRSRequest\x1a\x19.news.hamropatro.NRSReply\"\x00\x42\x33\n\x0fnews.hamropatroB\x18NewsRecommendationSystemP\x01\xa2\x02\x03HLWb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1enewsRecommendationSystem.proto\x12\x0fnews.hamropatro\"-\n\nNRSRequest\x12\r\n\x05title\x18\x01 \x01(\t\x12\x10\n\x08\x63\x61tegory\x18\x02 \x01(\t\"+\n\x08NRSReply\x12\r\n\x05title\x18\x01 \x01(\t\x12\x10\n\x08\x63\x61tegory\x18\x02 \x01(\t2N\n\nNRSService\x12@\n\x04send\x12\x1b.news.hamropatro.NRSRequest\x1a\x19.news.hamropatro.NRSReply\"\x00\x42\x33\n\x0fnews.hamropatroB\x18NewsRecommendationSystemP\x01\xa2\x02\x03HLWb\x06proto3')
 
 
 
@@ -40,9 +40,9 @@ if _descriptor._USE_C_DESCRIPTORS == False:
   DESCRIPTOR._options = None
   DESCRIPTOR._serialized_options = b'\n\017news.hamropatroB\030NewsRecommendationSystemP\001\242\002\003HLW'
   _NRSREQUEST._serialized_start=51
-  _NRSREQUEST._serialized_end=94
-  _NRSREPLY._serialized_start=96
-  _NRSREPLY._serialized_end=123
-  _NRSSERVICE._serialized_start=125
-  _NRSSERVICE._serialized_end=203
+  _NRSREQUEST._serialized_end=96
+  _NRSREPLY._serialized_start=98
+  _NRSREPLY._serialized_end=141
+  _NRSSERVICE._serialized_start=143
+  _NRSSERVICE._serialized_end=221
 # @@protoc_insertion_point(module_scope)
